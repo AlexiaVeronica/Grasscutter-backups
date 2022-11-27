@@ -8,7 +8,6 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.player.PlayerProgressManager;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.packet.PacketOpcodes;
-import emu.grasscutter.net.proto.OpenStateUpdateNotifyOuterClass.OpenStateUpdateNotify;
 
 /*
     Must be sent on login for openStates to work

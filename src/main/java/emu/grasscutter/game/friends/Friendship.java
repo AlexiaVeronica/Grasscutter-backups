@@ -1,6 +1,5 @@
 package emu.grasscutter.game.friends;
 
-import emu.grasscutter.net.proto.PlatformTypeOuterClass;
 import org.bson.types.ObjectId;
 
 import dev.morphia.annotations.*;
@@ -8,24 +7,23 @@ import emu.grasscutter.database.DatabaseHelper;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief;
 import emu.grasscutter.net.proto.FriendOnlineStateOuterClass.FriendOnlineState;
-import emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture;
 
 @Entity(value = "friendships", useDiscriminator = false)
 public class Friendship {
 	@Id private ObjectId id;
-	
+
 	@Transient private Player owner;
-	
+
 	@Indexed private int ownerId;
 	@Indexed private int friendId;
 	private boolean isFriend;
 	private int askerId;
-	
+
 	private PlayerProfile profile;
-	
+
 	@Deprecated // Morphia use only
 	public Friendship() { }
-	
+
 	public Friendship(Player owner, Player friend, Player asker) {
 		this.setOwner(owner);
 		this.ownerId = owner.getUid();
@@ -69,12 +67,12 @@ public class Friendship {
 	public PlayerProfile getFriendProfile() {
 		return profile;
 	}
-	
+
 	public void setFriendProfile(Player character) {
 		if (character == null || this.friendId != character.getUid()) return;
 		this.profile = character.getProfile();
 	}
-	
+
 	public boolean isOnline() {
 		return getFriendProfile().getPlayer() != null;
 	}
@@ -86,7 +84,7 @@ public class Friendship {
 	public void delete() {
 		DatabaseHelper.deleteFriendship(this);
 	}
-	
+
 	public FriendBrief toProto() {
 		FriendBrief proto = FriendBrief.newBuilder()
 				.setUid(getFriendProfile().getUid())

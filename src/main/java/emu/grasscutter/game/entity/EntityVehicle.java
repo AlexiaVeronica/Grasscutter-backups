@@ -11,9 +11,6 @@ import emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.Animat
 import emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.EntityAuthorityInfo;
 import emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo;
 import emu.grasscutter.net.proto.FightPropPairOuterClass.*;
-import emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo;
-import emu.grasscutter.net.proto.PropPairOuterClass.PropPair;
-import emu.grasscutter.net.proto.ProtEntityTypeOuterClass.ProtEntityType;
 import emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo;
 import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
 import emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo;

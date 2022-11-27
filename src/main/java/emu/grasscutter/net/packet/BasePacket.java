@@ -4,7 +4,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
 import com.google.protobuf.GeneratedMessageV3;
-import emu.grasscutter.net.proto.PacketHeadOuterClass.PacketHead;
 import emu.grasscutter.utils.Crypto;
 
 public class BasePacket {

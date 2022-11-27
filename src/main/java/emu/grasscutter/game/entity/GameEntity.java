@@ -8,8 +8,6 @@ import emu.grasscutter.game.world.SpawnDataEntry;
 import emu.grasscutter.game.world.World;
 import emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair;
 import emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq;
-import emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo;
-import emu.grasscutter.net.proto.MotionStateOuterClass.MotionState;
 import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
 import emu.grasscutter.net.proto.VectorOuterClass.Vector;
 import emu.grasscutter.server.event.entity.EntityDamageEvent;

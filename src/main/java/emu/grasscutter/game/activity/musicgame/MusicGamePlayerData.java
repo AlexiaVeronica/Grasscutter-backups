@@ -2,8 +2,6 @@ package emu.grasscutter.game.activity.musicgame;
 
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.excels.MusicGameBasicData;
-import emu.grasscutter.net.proto.MusicBriefInfoOuterClass;
-import emu.grasscutter.net.proto.MusicGameRecordOuterClass;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Data;

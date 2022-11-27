@@ -4,7 +4,6 @@ import emu.grasscutter.game.activity.musicgame.MusicGameBeatmap;
 import emu.grasscutter.net.packet.Opcodes;
 import emu.grasscutter.net.packet.PacketHandler;
 import emu.grasscutter.net.packet.PacketOpcodes;
-import emu.grasscutter.net.proto.MusicGameGetBeatmapReqOuterClass;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketMusicGameGetBeatmapRsp;
 

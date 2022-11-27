@@ -4,8 +4,6 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.PlayerProperty;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.packet.PacketOpcodes;
-import emu.grasscutter.net.proto.PlayerPropChangeReasonNotifyOuterClass.PlayerPropChangeReasonNotify;
-import emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason;
 
 public class PacketPlayerPropChangeReasonNotify extends BasePacket {
 

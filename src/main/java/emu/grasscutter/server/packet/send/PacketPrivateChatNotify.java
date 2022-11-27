@@ -3,7 +3,6 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.packet.PacketOpcodes;
 import emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo;
-import emu.grasscutter.net.proto.PrivateChatNotifyOuterClass.PrivateChatNotify;
 
 public class PacketPrivateChatNotify extends BasePacket {
     private ChatInfo info;

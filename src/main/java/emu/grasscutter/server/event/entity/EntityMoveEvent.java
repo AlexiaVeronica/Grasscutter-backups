@@ -1,7 +1,6 @@
 package emu.grasscutter.server.event.entity;
 
 import emu.grasscutter.game.entity.GameEntity;
-import emu.grasscutter.net.proto.MotionStateOuterClass.MotionState;
 import emu.grasscutter.server.event.types.EntityEvent;
 import emu.grasscutter.utils.Position;
 

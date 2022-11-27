@@ -16,7 +16,6 @@ import emu.grasscutter.net.proto.AbilityMetaModifierChangeOuterClass.AbilityMeta
 import emu.grasscutter.net.proto.AbilityMetaReInitOverrideMapOuterClass.AbilityMetaReInitOverrideMap;
 import emu.grasscutter.net.proto.AbilityMixinCostStaminaOuterClass.AbilityMixinCostStamina;
 import emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry;
-import emu.grasscutter.net.proto.ModifierActionOuterClass.ModifierAction;
 import lombok.Getter;
 
 public final class AbilityManager extends BasePlayerManager {

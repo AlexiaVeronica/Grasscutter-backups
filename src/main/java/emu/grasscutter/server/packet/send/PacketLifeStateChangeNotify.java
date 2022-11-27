@@ -5,7 +5,6 @@ import emu.grasscutter.game.props.LifeState;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.packet.PacketOpcodes;
 import emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.LifeStateChangeNotify;
-import emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType;
 
 public class PacketLifeStateChangeNotify extends BasePacket {
 	public PacketLifeStateChangeNotify(GameEntity target, LifeState lifeState) {
@@ -26,7 +25,7 @@ public class PacketLifeStateChangeNotify extends BasePacket {
 				.setLifeState(lifeState.getValue())
 				.setSourceEntityId(attacker.getId())
 				.build();
-		
+
 		this.setData(proto);
 	}
 	public PacketLifeStateChangeNotify(int attackerId, GameEntity target, LifeState lifeState) {

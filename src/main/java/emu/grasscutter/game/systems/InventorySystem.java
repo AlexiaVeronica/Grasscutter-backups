@@ -23,7 +23,6 @@ import emu.grasscutter.game.props.ItemUseOp;
 import emu.grasscutter.game.props.ItemUseTarget;
 import emu.grasscutter.game.shop.ShopChestTable;
 import emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam;
-import emu.grasscutter.net.proto.MaterialInfoOuterClass.MaterialInfo;
 import emu.grasscutter.server.event.player.PlayerUseFoodEvent;
 import emu.grasscutter.server.game.BaseGameSystem;
 import emu.grasscutter.server.game.GameServer;

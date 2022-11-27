@@ -18,8 +18,6 @@ import emu.grasscutter.game.world.World;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.packet.PacketOpcodes;
 import emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType;
-import emu.grasscutter.net.proto.MotionStateOuterClass.MotionState;
-import emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType;
 import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
 import emu.grasscutter.server.event.player.PlayerTeamDeathEvent;
 import emu.grasscutter.server.packet.send.PacketAddCustomTeamRsp;

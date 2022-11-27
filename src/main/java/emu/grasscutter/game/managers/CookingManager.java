@@ -1,7 +1,6 @@
 package emu.grasscutter.game.managers;
 
 import java.util.ArrayList;
-import java.util.Dictionary;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -15,8 +14,6 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.ActionReason;
 import emu.grasscutter.game.props.ItemUseOp;
 import emu.grasscutter.net.proto.CookRecipeDataOuterClass;
-import emu.grasscutter.net.proto.PlayerCookArgsReqOuterClass.PlayerCookArgsReq;
-import emu.grasscutter.net.proto.PlayerCookReqOuterClass.PlayerCookReq;
 import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
 import emu.grasscutter.server.packet.send.PacketCookDataNotify;
 import emu.grasscutter.server.packet.send.PacketCookRecipeDataNotify;

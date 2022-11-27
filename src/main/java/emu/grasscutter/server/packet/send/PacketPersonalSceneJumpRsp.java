@@ -2,7 +2,6 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.packet.PacketOpcodes;
-import emu.grasscutter.net.proto.PersonalSceneJumpRspOuterClass.PersonalSceneJumpRsp;
 import emu.grasscutter.utils.Position;
 
 public class PacketPersonalSceneJumpRsp extends BasePacket {
@@ -14,7 +13,7 @@ public class PacketPersonalSceneJumpRsp extends BasePacket {
 				.setDestSceneId(sceneId)
 				.setDestPos(pos.toProto())
 				.build();
-		
+
 		this.setData(proto);
 	}
 }
